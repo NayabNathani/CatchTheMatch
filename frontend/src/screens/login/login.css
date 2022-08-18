@@ -1,0 +1,170 @@
+.login-main-container{
+    background: url('../../assets/image.png');
+    height: 700px; 
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%; */
+    /* height: 100%; */
+}
+.matri-text{
+    font-size: 70px;
+    color: white;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 700px;
+}
+.login-logo-img-text-div{
+    display: flex;
+    width: 550px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-logo-div{ 
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 70vh;
+    padding: 60px;
+    width: 70%;
+}
+.login-logo-img-div{
+    display: flex;
+    width: 550px;
+    padding-right: 100px;
+    /* border: 1px solid black; */
+}
+.login-zoja-logo{
+    width: 100%;
+    /* height: 100%; */
+    /* border: 1px solid red; */
+}
+.login-logo-text{
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+.login-card{
+    width: 450px;
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 15px gray;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+
+}
+.login-form-head{
+font-size: 30px;
+color: black;
+width: 90%;
+padding: 20px;
+font-weight: 500;
+
+}
+
+.input-field{
+    width: 100%;
+}
+.login-form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field-div{
+    margin: 10px;
+    width: 100%;
+}
+.remember-me-div{
+    padding: 10px;
+    width: 100%;
+}
+.signin-btn{
+    width: 100%;
+    background-color:darkgrey;
+    margin: 20px 0px 20px 0px;
+}
+.forget-pass-div{
+    width: 100%;
+    padding: 10px;
+}
+.forget-pass-link{
+    size: 20px;
+    
+}
+.or-div{
+    font-size: 20px;
+    padding: 20px;
+}
+.terms-div{
+    font-size: 20px;
+}
+.reset-password-text{
+    font-size:16px;
+    margin-bottom: 20px;
+}
+.create-account-link-div{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:985px){
+    .login-main-container{
+        height: 100%;
+    }
+    .login-container{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+        justify-items: center;
+        align-items: center;
+        
+    }
+    .login-logo-div{
+        width: 90%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    
+    }
+    .login-logo-img-text-div{
+        width: 90%;
+        margin: 0px;
+
+    }
+    .login-logo-img-div{
+        width: 80%;
+
+    }
+    .login-card{
+        width: 90%;
+    }
+    .login-logo-text{
+        width: 80%;
+    }
+
+
+}

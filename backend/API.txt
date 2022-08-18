@@ -1,0 +1,13 @@
+BASE_URL:/www.secondzoja.com/v1 
+
+
+1. REGISTER:
+------------
+   URL:/register-user
+   
+
+
+2. VERIFY:
+------------
+   URL:/verify-user/:user_id
+    

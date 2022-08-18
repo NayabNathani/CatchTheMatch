@@ -1,0 +1,10 @@
+.access-request-div{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.access-request-div > p{
+    font-size: 20px;
+    font-weight: 500;
+}

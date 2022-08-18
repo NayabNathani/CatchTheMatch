@@ -1,0 +1,157 @@
+
+    .signup-main-container{
+        background: url('../../assets/image.png');
+        height: 770px; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .signup-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 770px;
+    }
+    .signup-logo-img-text-div{
+        display: flex;
+        width: 550px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .signup-logo-div{ 
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 70vh;
+        padding: 30px;
+        width: 70%;
+    }
+    .signup-logo-img-div{
+        display: flex;
+        width: 550px; 
+    }
+    .signup-logo{
+        width: 100%;
+        height: 100%;
+    }
+    .signup-logo-text{
+        width: 100%;
+        margin: 20px;
+        text-align: center;
+        color: white;
+    }
+    
+    .signup-card{
+        width: 400px;
+        background-color: #FFFFFF;
+        box-shadow: 4px 4px 15px gray;
+        padding: 10px;
+        padding-bottom: 20px;
+        border-radius: 5px;
+        margin: 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+    
+    }
+    .signup-form-head{
+    font-size: 30px;
+    color: black;
+    width: 90%;
+    padding: 20px;
+    font-weight: 500;
+    
+    }
+    
+    .input-field{
+        width: 100%;
+    }
+    .signup-form{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .input-field-div{
+        margin: 10px;
+        width: 100%;
+    }
+    .remember-me-div{
+        padding: 10px;
+        width: 100%;
+    }
+    .signup-btn{
+        width: 100%;
+       margin-top: 10px;
+    }
+    .already-mem-div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .already-mem-link{
+        size: 20px;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        
+    }
+    .or-div{
+        font-size: 20px;
+        padding: 20px;
+    }
+    .dropdown-div{
+        width: 100%;
+    }
+
+    @media screen and (max-width:900px){
+        .signup-main-container{
+            height: 100%;
+        }
+        .signup-container{
+            display: flex;
+            flex-direction: column-reverse;
+            height: 100%;
+            justify-items: center;
+            align-items: center;
+            
+        }
+        .signup-logo-div{
+            width: 90%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        }
+        .signup-logo-img-text-div{
+            width: 90%;
+            margin: 0px;
+    
+        }
+        .signup-logo-img-div{
+            width: 80%;
+            /* margin: 0px; */
+        }
+        .signup-card{
+            width: 90%;
+        }
+        .signup-logo-text{
+            width: 80%;
+        }
+    
+    
+    }

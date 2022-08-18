@@ -1,0 +1,96 @@
+.login-info-card-bar-div{
+display: flex;
+flex-direction: row;
+width: 100%;
+background-color:#EEEEEE ;
+/* padding: 20px; */
+justify-content: center;
+align-items: center;
+
+
+
+}
+.login-info-card-bar-item-div{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 20px;
+width: 100px;
+
+}
+.login-info-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.login-info-details-head-1{
+    font-size: 30px;
+    color: #777777;
+    padding: 20px;
+    text-align: center;
+}
+.login-info-details-text-1{
+width: 60%;
+display: flex;
+flex-direction: column;
+justify-content: center;align-items: center;
+text-align: center;
+color: #777777;
+border-bottom:0.5px solid #c9c5c5;
+padding-bottom: 20px;
+margin-bottom: 20px;
+}
+
+.login-info-details-text-2{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+    text-align: center;
+    color: #777777;
+    /* border-bottom:0.5px solid #c9c5c5; */
+    padding-bottom: 20px;
+    }
+
+.login-info-details-div-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+.login-info-details-div-2 > .inside-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 500px;
+    margin: 20px;
+}
+.login-info-comment{
+    width: 70%;
+    font-style: italic;
+    font-style: 16px;
+    color:#777777; 
+    text-align: center;
+    padding: 10px;
+    border-top: 0.3px solid #c9c5c5;
+    border-bottom: 0.3px solid #c9c5c5;
+    margin: 20px 0px;
+}
+
+
+
+
+
+@media screen and (max-width:500px){
+    .login-info-details-div-2 > .inside-div{
+        width: 100%;
+    }
+
+
+}

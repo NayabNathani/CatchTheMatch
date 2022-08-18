@@ -1,0 +1,89 @@
+.tab-form{
+    /* border: 1px solid black; */
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-fields-div{
+    width: 100%;
+    margin: 20px;
+}
+.input-dropdown-field{
+    border: 1px solid red;
+    width: 100%;
+}
+.basic-info-div{
+    border: 1px solid #C4C4C4;
+    margin: 5px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px;
+}
+.basic-info-head{
+    font-size: 18px;
+    font-weight:bold;
+    display: flex;
+    align-items:center ;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.basic-info-form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size:16px;
+
+}
+.info-input-fields-div{
+width: 100%;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.table-head{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.table-head-text{
+    font-size: 18px;
+    font-weight:bold;
+}
+.table-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+.table-field-value-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    margin: 10px 20px 10px 20px;
+    /* border: 1px solid red; */
+}
+.editForm > .table-field-value-div{
+    width: 300px;
+    margin: 20px;
+    /* border: 1px solid red; */
+}
+.table-field{
+    font-weight: bold;
+
+}
+.table-field-value{
+text-align:end;
+width: 200px;
+}
+
+
+@media screen and (max-width:945px){
+    .table-field-value-div{
+        width: 100%;
+    }
+    .editForm > .table-field-value-div{
+        width: 100%;
+    }
+}

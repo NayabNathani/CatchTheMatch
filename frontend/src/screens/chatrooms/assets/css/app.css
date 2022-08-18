@@ -1,0 +1,110 @@
+.chats-list-head{
+    /* border: 1px solid red; */
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    margin:10px;
+    border-bottom: 0.5px solid gray;
+}
+.chats-list-div{
+    /* border: 1px solid red; */
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.chatrooms-main-div{
+    width: 60%;
+    margin: 0px auto;
+    border: 0.5px solid rgb(201, 198, 198);
+    box-shadow: 3px 3px 10px rgb(170, 167, 167);
+}
+.online-status-div{
+    /* border: 1px solid red; */
+    /* height: 100%;
+    margin:; */
+}
+.profile-pic-div{
+    object-fit: contain;
+    object-position: bottom;
+}
+.profile-pic-div > img{
+    width: 100%;
+
+}
+.item-card{
+    width: 70%;
+    /* border:0.5px solid gray; */
+    padding: 0px;
+
+}
+.chatroom-item{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px;
+    border-bottom: 0.5px solid rgb(185, 185, 185);
+}
+.chatroom-item:hover{
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    padding: 20px;
+    transition: background-color 300ms ease-out;
+    cursor:pointer;
+}
+.chatroom-profile-name-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.chatroom-profile-div{
+    /* border: 1px solid red; */
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+}
+.chatroom-profile-div > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50px;
+}
+.chatroom-item-name{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.chatroom-online-status-div{
+    /* border: 1px solid green; */
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(180, 180, 180);
+}
+
+@media screen and (max-width:1050px){
+.chatroom-item{
+    width: 100%;
+}
+
+
+
+}
+
+@media screen and (max-width:880px){
+.chatrooms-main-div{
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    margin: 20px;
+}
+
+}

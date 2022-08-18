@@ -1,0 +1,99 @@
+.search-form{
+    /* border: 1px solid black; */
+
+}
+.search-section-1{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+.sec-1-input-field-div{
+    width: 250px;
+    margin: 10px;
+}
+.search-section-3{
+    margin-bottom: 50px;
+    /* border: 1px solid black; */
+}
+.sec-1-input-field-div > .input-field{
+ /* border: 1px solid black;    */
+}
+.sec-2-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.sec-3-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 30px;
+    align-items: center;
+}
+.search-head{
+    font-size: 24px;
+    font-weight: bold;
+}
+.sec-2-head, .sec-3-head{
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 0.5px solid #D1D1D1;
+
+}
+.sec-4-head{
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    margin: 20px;
+    border-bottom: 0.5px solid #D1D1D1;
+}
+.inside-collapse{
+    /* border: 1px solid black; */
+    margin: 20px;
+}
+.collapse-items-head{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom:0.5px solid #D1D1D1;
+    padding: 10px;
+
+}
+.collapse-items-head > .text-1{
+    width: 200px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.collapse-items-head > .text-2{
+    font-size: 16px ;
+}
+.collapse{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #EFF2F3;
+    padding: 10px;
+    /* border:1px solid red; */
+}
+.save-search-div{
+    margin: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec-5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
